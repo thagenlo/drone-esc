@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SM08B-SRSS-TB") (type "KiCad") (uri "${KIPRJMOD}/lib/SM08B-SRSS-TB/footprints.pretty") (options "") (descr ""))
+	(lib (name "IRLHS6242TRPBF") (type "KiCad") (uri "${KIPRJMOD}/lib/IRLHS6242TRPBF/footprints.pretty") (options "") (descr ""))
+	(lib (name "INA186A3IDCKR") (type "KiCad") (uri "${KIPRJMOD}/lib/INA186A3IDCKR/footprints.pretty") (options "") (descr ""))
+	(lib (name "TPS61023DRLR") (type "KiCad") (uri "${KIPRJMOD}/lib/TPS61023DRLR/footprints.pretty") (options "") (descr ""))
+)
