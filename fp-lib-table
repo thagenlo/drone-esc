@@ -4,4 +4,6 @@
 	(lib (name "IRLHS6242TRPBF") (type "KiCad") (uri "${KIPRJMOD}/lib/IRLHS6242TRPBF/footprints.pretty") (options "") (descr ""))
 	(lib (name "INA186A3IDCKR") (type "KiCad") (uri "${KIPRJMOD}/lib/INA186A3IDCKR/footprints.pretty") (options "") (descr ""))
 	(lib (name "TPS61023DRLR") (type "KiCad") (uri "${KIPRJMOD}/lib/TPS61023DRLR/footprints.pretty") (options "") (descr ""))
+	(lib (name "esc-board") (type "KiCad") (uri "${KIPRJMOD}/esc-board.pretty") (options "") (descr ""))
+	(lib (name "esc-board-copper") (type "KiCad") (uri "${KIPRJMOD}/esc-board-copper.pretty") (options "") (descr ""))
 )

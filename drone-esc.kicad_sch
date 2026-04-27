@@ -13561,7 +13561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 86.36 164.338 90)
 			(hide yes)
 			(show_name no)
@@ -14033,7 +14033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "esc-board-copper:esc-board"
 			(at 73.66 49.53 0)
 			(hide yes)
 			(show_name no)
