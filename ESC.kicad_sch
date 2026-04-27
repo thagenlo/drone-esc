@@ -3401,12 +3401,20 @@
 		(uuid "2aacfb9a-7445-4706-b26b-a42e5f22d486")
 	)
 	(no_connect
+		(at 86.36 33.02)
+		(uuid "3a147fd6-f4ea-4797-9988-3f92bd39d2a0")
+	)
+	(no_connect
 		(at 88.9 69.85)
 		(uuid "4c5e020d-60b1-4e7b-9d30-d4c2fea50f5b")
 	)
 	(no_connect
 		(at 58.42 100.33)
 		(uuid "66ed91e2-0a44-4a2c-a79f-ecacff2d1eb9")
+	)
+	(no_connect
+		(at 76.2 57.15)
+		(uuid "953b474b-e820-443c-a4ac-1769dcaa038f")
 	)
 	(no_connect
 		(at 76.2 49.53)
@@ -3419,14 +3427,6 @@
 	(no_connect
 		(at 76.2 46.99)
 		(uuid "d8fe1b09-b099-4f95-817e-eddeb2d226c2")
-	)
-	(no_connect
-		(at 99.06 33.02)
-		(uuid "e2492843-3387-43c5-8f7a-ee24a3cdcbb1")
-	)
-	(no_connect
-		(at 96.52 33.02)
-		(uuid "e4ca6787-61cf-4878-97ff-7182d6e756d9")
 	)
 	(no_connect
 		(at 59.69 170.18)
@@ -3589,16 +3589,6 @@
 			(type default)
 		)
 		(uuid "1fe35442-2243-4d02-bfcd-a58a6f427f48")
-	)
-	(wire
-		(pts
-			(xy 86.36 24.13) (xy 86.36 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "201a0fca-b688-4b32-94c4-544163598081")
 	)
 	(wire
 		(pts
@@ -4452,16 +4442,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 57.15) (xy 76.2 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2bd2d81-2ae8-4f4d-8f64-1571ed4537f5")
-	)
-	(wire
-		(pts
 			(xy 118.11 130.81) (xy 118.11 129.54)
 		)
 		(stroke
@@ -4592,6 +4572,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 24.13) (xy 99.06 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df46a3a0-e826-4193-9371-22a6c2f19f07")
+	)
+	(wire
+		(pts
 			(xy 248.92 118.11) (xy 252.73 118.11)
 		)
 		(stroke
@@ -4659,6 +4649,16 @@
 			(type default)
 		)
 		(uuid "f0480481-0137-4841-8640-e7d7a7134fd0")
+	)
+	(wire
+		(pts
+			(xy 96.52 31.75) (xy 96.52 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f087b5bb-5870-4916-97d9-1d9a07ea176c")
 	)
 	(wire
 		(pts
@@ -4731,12 +4731,12 @@
 		(uuid "fdaea857-a55a-41c4-ab60-1b0d5a737392")
 	)
 	(label "ESC_EN"
-		(at 86.36 24.13 180)
+		(at 99.06 24.13 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0036638e-7657-4ecb-8197-37ca7839dd54")
 	)
@@ -4791,16 +4791,6 @@
 		(uuid "19d6c879-b822-47a6-b57f-5e07c004b711")
 	)
 	(label "FBA"
-		(at 73.66 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2016f5f7-f5fa-4da4-a854-331b0dba32e9")
-	)
-	(label "FBA"
 		(at 196.85 48.26 180)
 		(effects
 			(font
@@ -4850,7 +4840,7 @@
 		)
 		(uuid "431389b3-0101-4f77-828d-30853eb5c8ed")
 	)
-	(label "C_HIGH"
+	(label "B_HIGH"
 		(at 111.76 52.07 0)
 		(effects
 			(font
@@ -4950,7 +4940,7 @@
 		)
 		(uuid "6a37d081-c3aa-4afe-989a-61fdecb4055d")
 	)
-	(label "B_LOW"
+	(label "C_HIGH"
 		(at 101.6 69.85 270)
 		(effects
 			(font
@@ -4960,7 +4950,7 @@
 		)
 		(uuid "6c161810-fd83-4487-8026-7f28a5870ccc")
 	)
-	(label "B_HIGH"
+	(label "A_LOW"
 		(at 111.76 49.53 0)
 		(effects
 			(font
@@ -4980,7 +4970,7 @@
 		)
 		(uuid "74b836c1-d92b-4a4b-a2be-f29fd0424f5f")
 	)
-	(label "A_LOW"
+	(label "B_LOW"
 		(at 111.76 59.69 0)
 		(effects
 			(font
@@ -4990,7 +4980,7 @@
 		)
 		(uuid "7f9caa26-b947-4546-8cde-461cca874ae6")
 	)
-	(label "FBB"
+	(label "FBC"
 		(at 91.44 69.85 270)
 		(effects
 			(font
@@ -5010,7 +5000,7 @@
 		)
 		(uuid "8b6aa4f6-295a-488a-8f5a-1f2ea1ab7e82")
 	)
-	(label "FBC"
+	(label "FBB"
 		(at 93.98 69.85 270)
 		(effects
 			(font
@@ -5089,6 +5079,16 @@
 			(justify left bottom)
 		)
 		(uuid "b9ee7c8c-1da6-4d0a-9971-6a4d312ccba5")
+	)
+	(label "FBA"
+		(at 96.52 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0bd126f-b568-4bb7-a1de-e38065226e0c")
 	)
 	(label "FBCOMMON"
 		(at 226.06 31.75 180)
@@ -8179,7 +8179,7 @@
 		(dnp no)
 		(uuid "62ad9383-580b-46ed-812a-ad6fdea25362")
 		(property "Reference" "R7"
-			(at 95.504 24.13 0)
+			(at 87.63 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8190,7 +8190,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 95.504 26.67 0)
+			(at 87.63 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
