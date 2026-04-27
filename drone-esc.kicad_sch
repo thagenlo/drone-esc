@@ -3831,6 +3831,12 @@
 		(uuid "2481d8c4-8c93-4799-b847-e20ef75e69a1")
 	)
 	(junction
+		(at 59.69 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25e295a9-9610-43af-816e-7c370cfc4806")
+	)
+	(junction
 		(at 193.04 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4708,6 +4714,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 143.51) (xy 59.69 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b24da04-70ca-4d97-862f-86feb212f7a6")
+	)
+	(wire
+		(pts
 			(xy 224.79 44.45) (xy 227.33 44.45)
 		)
 		(stroke
@@ -5168,7 +5184,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 154.94) (xy 59.69 140.97)
+			(xy 59.69 154.94) (xy 59.69 143.51)
 		)
 		(stroke
 			(width 0)
@@ -13679,6 +13695,82 @@
 			(project "drone-esc"
 				(path "/f59ffce8-13f3-438d-8235-d53c820346a5"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 143.51 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4d9f447-de72-4f8c-aea8-7e34ee8b6690")
+		(property "Reference" "TP28"
+			(at 68.326 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 65.786 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 59.69 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75a13b06-5c25-467a-a21d-dc85885790bf")
+		)
+		(instances
+			(project "drone-esc"
+				(path "/f59ffce8-13f3-438d-8235-d53c820346a5"
+					(reference "TP28")
 					(unit 1)
 				)
 			)
