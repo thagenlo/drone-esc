@@ -3289,22 +3289,10 @@
 		(uuid "3fec483b-d854-4468-a81e-2ef8d2d421a7")
 	)
 	(junction
-		(at 212.09 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "562d7240-bea7-4851-8b00-234a7a6e6eba")
-	)
-	(junction
 		(at 102.87 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a63ff64-ccee-4ab8-a86c-5fe27dbeb1f6")
-	)
-	(junction
-		(at 165.1 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74e3a6dc-84fb-4711-bbb5-533d205d286a")
 	)
 	(junction
 		(at 252.73 48.26)
@@ -3341,12 +3329,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "912f5076-4fb4-4ae6-9168-eb99eab04d31")
-	)
-	(junction
-		(at 257.81 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a45821a4-ba42-4b11-bde3-1dfa0e3b94a3")
 	)
 	(junction
 		(at 226.06 48.26)
@@ -3752,7 +3734,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 128.27) (xy 165.1 128.27)
+			(xy 151.13 128.27) (xy 171.45 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3892,16 +3874,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 128.27) (xy 257.81 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe0507e-ea70-494f-be11-d9519377f382")
-	)
-	(wire
-		(pts
 			(xy 67.31 73.66) (xy 71.12 73.66)
 		)
 		(stroke
@@ -3909,16 +3881,6 @@
 			(type default)
 		)
 		(uuid "622b2f4c-2641-4cf0-8946-cc39e2e873cb")
-	)
-	(wire
-		(pts
-			(xy 196.85 128.27) (xy 212.09 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62874046-c8d1-41cf-91d3-f36ab143d43a")
 	)
 	(wire
 		(pts
@@ -3932,7 +3894,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 128.27) (xy 262.89 128.27)
+			(xy 242.57 128.27) (xy 262.89 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4222,7 +4184,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 128.27) (xy 217.17 128.27)
+			(xy 196.85 128.27) (xy 217.17 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4239,16 +4201,6 @@
 			(type default)
 		)
 		(uuid "a694092b-66e6-4508-b2b6-98e9ca132e19")
-	)
-	(wire
-		(pts
-			(xy 165.1 128.27) (xy 171.45 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7c47356-2f46-4655-833d-f211ec906efb")
 	)
 	(wire
 		(pts
@@ -8078,96 +8030,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 257.81 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6094ad64-f681-4d30-bb09-99e0ec452192")
-		(property "Reference" "TP56"
-			(at 249.428 123.952 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOTORC"
-			(at 249.428 126.492 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 262.89 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 257.81 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d9ba629d-f3e1-4549-b6ce-9b6323521392")
-		)
-		(instances
-			(project "drone-esc"
-				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/65a6761b-39e3-45d3-bbed-f38d23cb4725"
-					(reference "TP56")
-					(unit 1)
-				)
-				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/7ec3fac8-ec0d-4955-8b0e-d7d5d39f03aa"
-					(reference "TP57")
-					(unit 1)
-				)
-				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/87956ea2-fb5d-4d58-9c10-e018120f20c3"
-					(reference "TP59")
-					(unit 1)
-				)
-				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/da268911-9f9b-415b-a32a-e5d7faa19d31"
-					(reference "TP58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 93.98 25.4 180)
 		(unit 1)
@@ -9623,96 +9485,6 @@
 				)
 				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/da268911-9f9b-415b-a32a-e5d7faa19d31"
 					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 212.09 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a060740a-17c9-4c31-88d3-77e203e1fc60")
-		(property "Reference" "TP52"
-			(at 203.708 123.952 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOTORB"
-			(at 203.708 126.492 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 217.17 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 212.09 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04a5b274-923e-4683-a595-3b480e8a13a2")
-		)
-		(instances
-			(project "drone-esc"
-				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/65a6761b-39e3-45d3-bbed-f38d23cb4725"
-					(reference "TP52")
-					(unit 1)
-				)
-				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/7ec3fac8-ec0d-4955-8b0e-d7d5d39f03aa"
-					(reference "TP53")
-					(unit 1)
-				)
-				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/87956ea2-fb5d-4d58-9c10-e018120f20c3"
-					(reference "TP55")
-					(unit 1)
-				)
-				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/da268911-9f9b-415b-a32a-e5d7faa19d31"
-					(reference "TP54")
 					(unit 1)
 				)
 			)
@@ -12592,96 +12364,6 @@
 				)
 				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/da268911-9f9b-415b-a32a-e5d7faa19d31"
 					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e42e483d-9615-40ce-8f5e-c69e52d6a2ce")
-		(property "Reference" "TP48"
-			(at 156.718 123.952 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOTORA"
-			(at 156.718 126.492 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 170.18 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 165.1 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04ccc2f2-cd1c-40ac-a204-6f7114acb59c")
-		)
-		(instances
-			(project "drone-esc"
-				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/65a6761b-39e3-45d3-bbed-f38d23cb4725"
-					(reference "TP48")
-					(unit 1)
-				)
-				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/7ec3fac8-ec0d-4955-8b0e-d7d5d39f03aa"
-					(reference "TP49")
-					(unit 1)
-				)
-				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/87956ea2-fb5d-4d58-9c10-e018120f20c3"
-					(reference "TP51")
-					(unit 1)
-				)
-				(path "/f59ffce8-13f3-438d-8235-d53c820346a5/da268911-9f9b-415b-a32a-e5d7faa19d31"
-					(reference "TP50")
 					(unit 1)
 				)
 			)
