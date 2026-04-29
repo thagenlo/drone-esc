@@ -366,7 +366,7 @@
 			(pin unspecified line
 				(at 43.18 -7.62 180)
 				(length 2.54)
-				(name "3A"
+				(name "3C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -402,7 +402,7 @@
 			(pin unspecified line
 				(at 43.18 -17.78 180)
 				(length 2.54)
-				(name "3C"
+				(name "3A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -420,7 +420,7 @@
 			(pin unspecified line
 				(at 43.18 -22.86 180)
 				(length 2.54)
-				(name "4A"
+				(name "4C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -456,7 +456,7 @@
 			(pin unspecified line
 				(at 43.18 -33.02 180)
 				(length 2.54)
-				(name "4C"
+				(name "4A"
 					(effects
 						(font
 							(size 1.27 1.27)

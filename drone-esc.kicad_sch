@@ -2774,15 +2774,14 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U1"
-				(at -3.048 2.286 0)
+			(property "Reference" "U"
+				(at 0.762 1.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" ""
@@ -2795,7 +2794,7 @@
 					)
 				)
 			)
-			(property "Footprint" "esc-board-copper:esc-board"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2871,6 +2870,150 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 270)
+					(length 2.54)
+					(name "VBAT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 2.54 270)
+					(length 2.54)
+					(name "CUR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 2.54 270)
+					(length 2.54)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 2.54 270)
+					(length 2.54)
+					(name "M1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 2.54 270)
+					(length 2.54)
+					(name "M2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 30.48 2.54 270)
+					(length 2.54)
+					(name "M3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 34.29 2.54 270)
+					(length 2.54)
+					(name "M4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2989,7 +3132,7 @@
 				(pin unspecified line
 					(at 43.18 -7.62 180)
 					(length 2.54)
-					(name "3A"
+					(name "3C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3025,7 +3168,7 @@
 				(pin unspecified line
 					(at 43.18 -17.78 180)
 					(length 2.54)
-					(name "3C"
+					(name "3A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3043,7 +3186,7 @@
 				(pin unspecified line
 					(at 43.18 -22.86 180)
 					(length 2.54)
-					(name "4A"
+					(name "4C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3079,7 +3222,7 @@
 				(pin unspecified line
 					(at 43.18 -33.02 180)
 					(length 2.54)
-					(name "4C"
+					(name "4A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4094,6 +4237,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 57.15) (xy 121.92 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c68bfae-a1e7-450a-bd79-9e5c515f8230")
+	)
+	(wire
+		(pts
 			(xy 134.62 160.02) (xy 139.7 160.02)
 		)
 		(stroke
@@ -4564,16 +4717,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 57.15) (xy 121.92 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75836fca-7828-471f-bccb-1bf5c1216d6b")
-	)
-	(wire
-		(pts
 			(xy 196.85 111.76) (xy 215.9 111.76)
 		)
 		(stroke
@@ -4661,6 +4804,16 @@
 			(type default)
 		)
 		(uuid "8274e960-065e-4612-b201-66f54cfbe157")
+	)
+	(wire
+		(pts
+			(xy 116.84 67.31) (xy 121.92 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f24222-4ee1-45b4-b85f-b71423e39234")
 	)
 	(wire
 		(pts
@@ -5081,16 +5234,6 @@
 			(type default)
 		)
 		(uuid "caae4827-1c71-4fdf-859b-d40eec4f92ce")
-	)
-	(wire
-		(pts
-			(xy 116.84 67.31) (xy 121.92 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccffccc4-3925-4d87-9a7a-a9bc6b41553a")
 	)
 	(wire
 		(pts
@@ -13610,6 +13753,30 @@
 		(pin "18"
 			(uuid "e2436080-b0fa-442d-a666-8fffa58093ca")
 		)
+		(pin "5"
+			(uuid "ea053c1a-2dcf-4ece-95af-267185d5c4e9")
+		)
+		(pin "6"
+			(uuid "c11b2578-fdea-420c-bde8-eb7c01e3be9d")
+		)
+		(pin "7"
+			(uuid "c8ee8dd8-a9b3-4ad5-a53d-69af3cc823d4")
+		)
+		(pin "8"
+			(uuid "44ff53fb-8d69-4632-81b8-d78942016da4")
+		)
+		(pin "9"
+			(uuid "893ffe16-2b58-4dc9-8833-7393cc3dd6c1")
+		)
+		(pin "10"
+			(uuid "7d9a8240-cb7a-4b87-9b59-dd079719b26b")
+		)
+		(pin "4"
+			(uuid "27d825fe-7111-42ff-98b2-18d41cf864a5")
+		)
+		(pin "3"
+			(uuid "e681794a-b859-4f7c-9aa8-cc22c722f788")
+		)
 		(instances
 			(project "drone-esc"
 				(path "/f59ffce8-13f3-438d-8235-d53c820346a5"
@@ -14921,7 +15088,7 @@
 			)
 		)
 		(pin "A" output
-			(at 121.92 72.39 180)
+			(at 121.92 82.55 180)
 			(uuid "dc7360dd-e837-42da-8d34-cfeb3118bf09")
 			(effects
 				(font
@@ -14941,7 +15108,7 @@
 			)
 		)
 		(pin "C" output
-			(at 121.92 82.55 180)
+			(at 121.92 72.39 180)
 			(uuid "d64f6e48-b29e-4070-89b3-23bcac75c512")
 			(effects
 				(font
@@ -15006,7 +15173,7 @@
 			)
 		)
 		(pin "A" output
-			(at 121.92 57.15 180)
+			(at 121.92 67.31 180)
 			(uuid "334fc9ce-6962-42d6-887f-72ff0f227756")
 			(effects
 				(font
@@ -15026,7 +15193,7 @@
 			)
 		)
 		(pin "C" output
-			(at 121.92 67.31 180)
+			(at 121.92 57.15 180)
 			(uuid "9bc30273-b131-46a2-8eff-7a8454323bdc")
 			(effects
 				(font
