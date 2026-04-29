@@ -3379,16 +3379,16 @@
 		(uuid "f9bdf9d1-64b2-4c63-a786-3422d9deac11")
 	)
 	(no_connect
+		(at 91.44 69.85)
+		(uuid "07bdf6a0-cf29-42f5-b476-6bd3982e8f98")
+	)
+	(no_connect
 		(at 91.44 33.02)
 		(uuid "2aacfb9a-7445-4706-b26b-a42e5f22d486")
 	)
 	(no_connect
 		(at 86.36 33.02)
 		(uuid "3a147fd6-f4ea-4797-9988-3f92bd39d2a0")
-	)
-	(no_connect
-		(at 88.9 69.85)
-		(uuid "4c5e020d-60b1-4e7b-9d30-d4c2fea50f5b")
 	)
 	(no_connect
 		(at 58.42 100.33)
@@ -4752,6 +4752,16 @@
 		)
 		(uuid "213b6d03-c73a-4f15-b77c-43959e3dec5d")
 	)
+	(label "FBC"
+		(at 88.9 69.85 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29edb043-bae6-4337-9118-794822b136ea")
+	)
 	(label "GATE_A_HIGH"
 		(at 58.42 105.41 180)
 		(effects
@@ -4931,16 +4941,6 @@
 			(justify left bottom)
 		)
 		(uuid "7f9caa26-b947-4546-8cde-461cca874ae6")
-	)
-	(label "FBC"
-		(at 91.44 69.85 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "803d7489-21b7-4a2f-8134-c153694a4c6e")
 	)
 	(label "GATE_B_HIGH"
 		(at 58.42 139.7 180)
